@@ -4,7 +4,7 @@ function onYouTubeIframeAPIReady() {
 	player = new YT.Player('video-placeholder', {
 		width: 600,
 		height: 400,
-		videoId: 'vrP-_T-h9YM',
+		videoId: 'YvY7hXqz6uI',
 		playerVars: {
 			color: 'white'
 			//autoplay: '1'
@@ -59,7 +59,7 @@ function updateTimerDisplay(){
 			updateTimerDisplay();
 		}, 100);
 	}
-	
+
 }
 function pTimes(num,startT,endT,curT) {
 	var curP = document.querySelector('.p' + num);
@@ -135,4 +135,3 @@ function sTimes(num,soundStarts,curT) {
 		};
 	}
 })();
-
