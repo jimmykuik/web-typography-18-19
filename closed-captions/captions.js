@@ -1,47 +1,30 @@
-// I got a song.
-captions[0] = ['0','2.971'];
-captions[1] = ['3.055','4.89'];
-captions[2] = ['4.9','6.277'];
-// Ah, You wrote it.
-captions[3] = ['6.6','8.018'];
-captions[4] = ['8.101','9.102'];
-captions[5] = ['9.52','10.854'];
-// Sing it?
-captions[6] = ['11.146','12.314'];
-captions[7] = ['12.397','14.024'];
-captions[8] = ['14.107','16.693'];
-// Okay. Key of G.
-captions[9] = ['16.777','18.195'];
-captions[10] = ['19.063','20.022'];
-captions[11] = ['20.556','21.557'];
-// Yeah, but it's a kind of
-captions[12] = ['22.024','24.86'];
-captions[13] = ['24.944','26.32'];
-captions[14] = ['28.013','29.682'];
-// You like that?
-captions[15] = ['30.007','32.051'];
-captions[16] = ['32.06','35.355'];
-captions[17] = ['35.512','37.723'];
-// ¤ They're doin'
-captions[18] = ['37.806','39.808'];
-captions[19] = ['40.643','42.645'];
-captions[20] = ['43.562','45.481'];
-// ¤ Everybody doin'
-captions[21] = ['45.564','47.524'];
-captions[22] = ['47.608','49.577'];
-captions[23] = ['49.599','53.205'];
-// ¤ Everybody here's gonna
-captions[24] = ['53.289','55.875'];
-captions[25] = ['56','57.751'];
-captions[26] = ['58.544','60.754'];
-// ¤ They're doin' the mess around ¤
-captions[27] = ['62.381','64.55'];
-captions[28] = ['64.675','66.76'];
-captions[29] = ['68.888','72.349'];
-// ¤ She knows
-captions[30] = ['72.775','75.57'];
-captions[31] = ['76.028','77.572'];
-captions[32] = ['78.055','80.016'];
-// ¤ Ah, mess around ¤
-captions[33] = ['81.501','83.252'];
-captions[34] = ['83.569','0'];
+// for a year a month and nine days I
+captions[0] = ['6.569','13.54'];
+captions[1] = ['10.24','16.07'];
+captions[2] = ['13.54','22.96'];
+// [Music]
+captions[3] = ['16.07','22.96'];
+captions[4] = ['27.15','30.299'];
+captions[5] = ['42.379','49.92'];
+// okay well just follow the river back up
+captions[6] = ['45.09','56.76'];
+captions[7] = ['49.92','58.05'];
+captions[8] = ['56.76','60'];
+// does anybody have a cell phone but we're
+captions[9] = ['58.05','62.599'];
+captions[10] = ['60','62.6'];
+captions[11] = ['66.95','72.61'];
+// there's something in these pods
+captions[12] = ['68.8','72.61'];
+captions[13] = ['74.4','78.419'];
+captions[14] = ['80.85','87.059'];
+// as ancient as my tribe remembers
+captions[15] = ['82.64','89.19'];
+captions[16] = ['87.06','92.57'];
+captions[17] = ['89.19','92.57'];
+// I'll creature took your wife
+captions[18] = ['97.609','101.869'];
+captions[19] = ['115.6','119.199'];
+captions[20] = ['119.42','122.489'];
+// Oh
+captions[21] = ['122.79','124.82'];
