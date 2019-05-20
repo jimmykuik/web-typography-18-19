@@ -2,9 +2,8 @@ var player;
 
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('video-placeholder', {
-		width: 600,
-		height: 400,
 		videoId: 'Jj64SuhVrvY',
+		controls: '0',
 		playerVars: {
 			color: 'white'
 			//autoplay: '1'
@@ -43,6 +42,13 @@ function updateTimerDisplay(){
 	// (paragraph number, start time, end time, current time)
 
 	//Officer K D 6 - 3 . 7. Let’s begin. Ready?
+	if ( t > 0) {
+		document.body.style.animation = "background-fade 0.5s forwards";
+		document.getElementById("video-placeholder").style.transition = "height 0.5s, width 0.5s";
+		document.getElementById("video-placeholder").style.width = "1024px";
+		document.getElementById("video-placeholder").style.height = "576px";
+	}
+
 	var i = 0;
 	while( i < captions.length) {
 		pTimes(i,captions[i][0],captions[i][1],t);
@@ -54,7 +60,7 @@ function updateTimerDisplay(){
 		i++;
 	}
 
-	if ( t < 136.1) {
+	if ( t < 144) {
 		setTimeout(() => {
 			updateTimerDisplay();
 		}, 100);
