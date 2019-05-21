@@ -1,10 +1,10 @@
 // for a year a month and nine days I
-captions[0] = ['6.569','13.54'];
-captions[1] = ['10.24','13.54'];
-captions[2] = ['13.54','16.07'];
+captions[0] = ['6.569','12.84'];
+captions[1] = ['9.84','12.84'];
+captions[2] = ['12.84','15.6'];
 // [Music]
-captions[3] = ['16.07','22.96'];
-captions[4] = ['27.15','30.299'];
+captions[3] = ['15.6','20.2'];
+captions[4] = ['27.65','29.65   '];
 captions[5] = ['42.879','47.52'];
 // okay well just follow the river back up
 captions[6] = ['44.39','47.52'];
