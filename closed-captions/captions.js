@@ -17,8 +17,8 @@ captions[11] = ['58.2','59.55'];
 captions[12] = ['59.55','62'];
 captions[13] = ['62','64.5'];
 // there's something in these pods
-captions[14] = ['64.5','68'];
-captions[15] = ['69','71'];
+captions[14] = ['64.5','68.5'];
+captions[15] = ['69.5','70.5'];
 captions[16] = ['72.5','73.5'];
 captions[17] = ['79.5','86'];
 // as ancient as my tribe remembers

@@ -83,6 +83,153 @@ function updateTimerDisplay() {
         tijgerAfbeelding.classList.remove('tiger2');
         tijgerAfbeelding.style.display = "none";
     }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound27'))) {
+        document.body.style.background = "#b0b0b0";
+        document.getElementById("video-placeholder").style.animation = "gunshot .7s forwards";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound29'))) {
+        document.getElementById("video-placeholder").style.animation = "";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound30'))) {
+        document.getElementById("video-placeholder").style.animation = "gunshot .7s forwards";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound31'))) {
+        document.body.style.animation = "dofGeluid 2s forwards";
+        document.getElementById("video-placeholder").style.animation = "";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound32'))) {
+        document.getElementById("video-placeholder").style.animation = "gunshot .7s forwards";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound33'))) {
+        document.getElementById("video-placeholder").style.animation = "";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound34'))) {
+        document.body.style.background = "black";
+        document.body.style.animation = "";
+        tijgerAfbeelding.style.display = "inline-block";
+        tijgerAfbeelding.classList.add('on');
+        tijgerAfbeelding.classList.add('tiger3');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound36'))) {
+        tijgerAfbeelding.classList.remove('tiger3');
+        tijgerAfbeelding.style.zIndex = "-1";
+        tijgerAfbeelding.style.opacity = ".3";
+        tijgerAfbeelding.classList.add('tiger4');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound38'))) {
+        tijgerAfbeelding.classList.remove('tige4');
+        tijgerAfbeelding.style.zIndex = "1";
+        tijgerAfbeelding.style.opacity = ".3";
+        tijgerAfbeelding.classList.add('tiger3');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound40'))) {
+        tijgerAfbeelding.classList.remove('tige3');
+        tijgerAfbeelding.style.zIndex = "1";
+        tijgerAfbeelding.classList.add('tiger5');
+        tijgerAfbeelding.style.opacity = "1";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound42'))) {
+        tijgerAfbeelding.classList.remove('on');
+        tijgerAfbeelding.classList.remove('tiger4');
+        tijgerAfbeelding.classList.remove('tiger5');
+        tijgerAfbeelding.classList.remove('tiger3');
+        tijgerAfbeelding.style.display = "none";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound43'))) {
+        tijgerAfbeelding.style.display = "inline-block";
+        tijgerAfbeelding.classList.add('on');
+        tijgerAfbeelding.classList.add('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound44'))) {
+        document.getElementById("video-placeholder").style.animation = "shakeScreen .1s infinite";
+        tijgerAfbeelding.style.display = "none";
+        tijgerAfbeelding.classList.remove('on');
+        tijgerAfbeelding.classList.remove('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound45'))) {
+        tijgerAfbeelding.style.display = "none";
+        tijgerAfbeelding.classList.remove('on');
+        tijgerAfbeelding.classList.remove('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound46'))) {
+        tijgerAfbeelding.style.display = "inline-block";
+        tijgerAfbeelding.classList.add('on');
+        tijgerAfbeelding.classList.add('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound48'))) {
+        tijgerAfbeelding.style.display = "none";
+        tijgerAfbeelding.classList.remove('on');
+        tijgerAfbeelding.classList.remove('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound49'))) {
+        tijgerAfbeelding.style.display = "inline-block";
+        tijgerAfbeelding.classList.add('on');
+        tijgerAfbeelding.classList.add('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound50'))) {
+        tijgerAfbeelding.style.display = "none";
+        tijgerAfbeelding.classList.remove('on');
+        tijgerAfbeelding.classList.remove('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound51'))) {
+        document.getElementById("video-placeholder").style.animation = "shakeScreen .1s infinite, gunshot2 5.7s forwards";
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound52'))) {
+        tijgerAfbeelding.style.display = "inline-block";
+        tijgerAfbeelding.classList.add('on');
+        tijgerAfbeelding.classList.add('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound53'))) {
+        tijgerAfbeelding.style.display = "none";
+        tijgerAfbeelding.classList.remove('on');
+        tijgerAfbeelding.classList.remove('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound54'))) {
+        tijgerAfbeelding.style.display = "inline-block";
+        tijgerAfbeelding.classList.add('on');
+        tijgerAfbeelding.classList.add('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound56'))) {
+        document.getElementById("video-placeholder").style.animation = "";
+        tijgerAfbeelding.style.display = "none";
+        tijgerAfbeelding.classList.remove('on');
+        tijgerAfbeelding.classList.remove('tiger2');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound58'))) {
+        tijgerAfbeelding.style.display = "inline-block";
+        tijgerAfbeelding.classList.add('on');
+        tijgerAfbeelding.classList.add('tiger3');
+    }
+    
+    if ((t > 0 ) && (document.body.classList.contains('sound60'))) {
+        tijgerAfbeelding.style.display = "none";
+        tijgerAfbeelding.classList.remove('on');
+        tijgerAfbeelding.classList.remove('tiger3');
+    }
 
     var i = 0;
     while (i < captions.length) {
